@@ -1,6 +1,6 @@
-require('dotenv').config();
+require("dotenv").config();
 
 module.exports = {
-    TOKEN: process.env.TELEGRAM_TOKEN,
-    BOT_USERNAME: process.env.TELEGRAM_TOKEN_NAME,
+  TOKEN: process.env.TELEGRAM_TOKEN,
+  BOT_USERNAME: process.env.TELEGRAM_TOKEN_NAME,
 };
